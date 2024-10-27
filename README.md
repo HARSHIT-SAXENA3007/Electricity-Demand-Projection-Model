@@ -6,7 +6,7 @@ This project is an LSTM-based model to forecast electricity demand, using histor
 - Project Overview
 - Dataset
 - Features
-- Installation
+- Setup in Google Collab
 - Usage
 - Model Structure
 - Results
