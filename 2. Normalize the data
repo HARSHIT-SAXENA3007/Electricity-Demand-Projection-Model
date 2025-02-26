@@ -1,4 +1,0 @@
-scaler_features = MinMaxScaler(feature_range=(0, 1))
-scaler_target = MinMaxScaler(feature_range=(0, 1))
-data[['Temperature', 'Holiday', 'Day', 'Month', 'DayOfWeek']] = scaler_features.fit_transform(data[['Temperature', 'Holiday', 'Day', 'Month', 'DayOfWeek']])
-data['Consumption'] = scaler_target.fit_transform(data[['Consumption']])
