@@ -1,8 +1,0 @@
-sequence_length = 60
-X_seq, y_seq = [], []
-
-for i in range(sequence_length, len(X)):
-    X_seq.append(X[i-sequence_length:i])
-    y_seq.append(y[i])
-
-X_seq, y_seq = np.array(X_seq), np.array(y_seq)
