@@ -1,4 +1,4 @@
-# ⚡ Electricity Demand Forecasting using LSTM + Attention
+# ⚡ ElecTrend
 
 This project is a deep learning-based system to **forecast daily electricity demand and peak usage** using historical power consumption data, weather conditions, and temporal features. The system leverages **LSTM networks**, **attention mechanisms**, and **Keras Tuner** for hyperparameter optimization to enhance predictive performance.
 
